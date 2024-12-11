@@ -4,7 +4,7 @@ const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
   database: 'proactive',
-  password: 'Ashyboyjay020903.'
+  password: process.env.DB_PASS
 });
 
 connection.connect((err) => {
@@ -67,16 +67,6 @@ connection.query(`
 
 
 
-//   connection.query(`CREATE TABLE IF NOT EXISTS Sessions (
-//     id INT AUTO_INCREMENT PRIMARY KEY,
-//     bookingId INT NOT NULL,
-//     sessionDate DATETIME NOT NULL,
-//     status ENUM('upcoming', 'completed', 'canceled') DEFAULT 'upcoming',
-//     feedback TEXT,
-//     FOREIGN KEY (bookingId) REFERENCES Bookings(id) ON DELETE CASCADE
-//   );`, (err) => {
-//     if (err) console.log('Error creating sessions table:', err);
-//     else console.log('Sessions table ready.');
-//   });
+
   
   module.exports = connection;
