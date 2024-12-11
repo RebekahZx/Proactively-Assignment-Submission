@@ -1,0 +1,44 @@
+.signup_main{
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    left: 1300px;
+    top: 50px;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.signup_doctor{
+    display: flex;
+    gap: 10px;
+    height: 50%;
+    align-items: center;
+}
+
+.signup_doctor p{
+    width: 70px;
+}
+
+.signup_patients{
+    display: flex;
+    gap: 10px;
+    height: 50%;
+    align-items: center;
+}
+
+.signup_patients p{
+    width: 70px;
+}
+
+
+.links{
+    color: #4384E6;
+    font-size: 15px;
+}

@@ -1,0 +1,44 @@
+.main{
+    max-height: 50px;
+    display: flex;
+    width: 98vw;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-bottom: 1px solid #EAEAEA;
+    background-color: #FFFFFF;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+
+.navContent{
+    display: flex;
+    align-items: center ;
+    color: #707070;
+}
+
+
+.navItem{
+    border-right : 1px solid #E7E7E7;
+    display : flex;
+    align-items : center;
+    padding: 0px 20px;
+}
+
+.navItem:hover{
+    cursor: pointer;
+}
+
+.loginButton:hover{
+    cursor: pointer;
+}
