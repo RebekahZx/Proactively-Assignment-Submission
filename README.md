@@ -8,8 +8,8 @@ Welcome to the **Proactively Assignment Submission** project! This guide will he
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/RebekahZx/Proactively-Assignment-Submission.git
+   cd <where-you-have-cloned>
    ```
 
 2. Install dependencies:
