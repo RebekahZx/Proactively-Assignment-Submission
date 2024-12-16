@@ -66,4 +66,5 @@ https://documenter.getpostman.com/view/40246910/2sAYBd98w1
 - Ensure that you have a working database connection before running the project.
 - Test the Google Calendar integration using the provided API key.
 - For email functionalities, ensure that your email provider supports app-specific passwords.
+## if env file is not onfigured properly manually type the fields in the code for testing purpose only
 
